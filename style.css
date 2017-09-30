@@ -1,13 +1,3 @@
-@font-face {
-  font-family: 'Andrew Book';
-  src: url('/Andrew-Book.otf');
-}
-
-@font-face {
-  font-family: 'Andrew Bold';
-  src: url('/Andrew-Bold.otf');
-}
-
 html {
   font-family: sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
@@ -18,7 +8,7 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Andrew Book', Helvetica, Arial, sans-serif;
+  font-family: 'Nunito', Helvetica, Arial, sans-serif;
   font-size: 15px;
   font-weight: 300;
   line-height: 125%;
@@ -26,7 +16,7 @@ body {
 }
 
 * {
-  font-family: 'Andrew Book', Helvetica, Arial, sans-serif;
+  font-family: 'Nunito', Helvetica, Arial, sans-serif;
   color: #FFFFFF;
   line-height: 1.5;
   font-weight: 300;
@@ -48,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 { 
   display: block;
   color: #FFFFFF;
-  font-family: 'Andrew Bold', Helvetica, Arial, sans-serif;
+  font-family: 'Nunito', Helvetica, Arial, sans-serif;
   font-weight: 700;
   font-size: 48px;
   line-height: 110%;
